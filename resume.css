@@ -11,13 +11,11 @@ body
 #filter
 {
 	position:fixed;
-	bottom:0px;
 	left:0px;
 	top:0px;
-	right:0px;
-	min-width:100%
-	min-height:100%;
-	height:auto;
+	width:100%
+	height:100%;
+	
 	z-index:-1;
 	background-color:black;
 	opacity:0.3; 
