@@ -4,13 +4,13 @@ body
 	height:100%;
 	margin:0;
 	padding:0;
-	background-image:url("./images/sam2.jpeg");
 	background-size:cover;
 	background-attachment: fixed;
 	overflow-x: hidden;
 	background-repeat: no-repeat;
 html {
     height:100%;
+	background-image:url("./images/sam2.jpeg");
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
