@@ -3,17 +3,13 @@ body
 {
 	margin:0;
 	padding:0;
-	height:100%;
-	width:100%;
-	background-image:url("./images/sam2.jpeg");
-	-webkit-background-size:cover;
-	-moz-background-size: cover;
+}
+html { 
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-	background-repeat: no-repeat;
-	
-	background-attachment:fixed;
-	
 }
 #filter
 {
