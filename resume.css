@@ -1,0 +1,292 @@
+
+body
+{
+	margin:0;
+	padding:0;
+	background-image:url("./images/sam2.jpeg");
+	background-size:cover;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+#filter
+{
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	top:0px;
+	right:0px;
+	min-width:100%
+	min-height:100%;
+	height:auto;
+	z-index:-1;
+	background-color:black;
+	opacity:0.3; 
+
+}
+
+#main
+{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	top:0px;
+	right:0px;
+	width:100%;
+	height:auto;
+}
+
+#myimage
+{
+
+	position: absolute;
+	top:50px;
+	left:200px;
+	margin:10px 10px 10px 10px;
+	border-radius: 10px;
+	width:15%;
+	height:auto;
+}
+
+#contact
+{
+	color: white;
+	position: absolute;
+	top:270px;
+	left:250px;
+}
+
+#contactlist
+{
+	position: absolute;
+	top:320px;
+	list-style: none;
+	left:170px;
+}
+#contactlist li
+{
+	display: inline;
+	margin-right:20px;
+}
+
+#aboutme
+{
+	color: white;
+	font-size: 2em;
+	position: absolute;
+	left:450px;
+	top:170px;
+}
+
+hr
+{
+	position:relative;
+	width:70%;
+	top:400px;
+
+}
+
+#showcase
+{
+
+ 
+	position: absolute;
+	left:200px;
+	top:450px;
+	min-width:300px;
+	min-height:200px 
+}
+
+#showcase h2
+{
+	color:white;
+	position: relative;
+	left:5px;
+}
+
+#showcase ul
+{
+list-style: none;
+position: relative;
+left:250px;
+top:20px;
+
+}
+
+#tech li
+{
+	display: inline;
+	margin-right:100px;
+}
+
+#tech img
+{
+	width:80px;
+	height:80px;
+}
+
+#projects
+{
+	position: relative;
+	min-width:300px;
+	min-height:100px;
+
+	left:150px;
+	top:50px;
+}
+
+.projItem
+{
+	border:1px solid white;
+	padding:5px 5px 5px 5px;
+	border-radius:5px;
+	margin-bottom:10px;
+	color: white;
+}
+
+.projItem a
+{
+	color:white;
+	text-decoration:none; 
+}
+
+@media only screen and (max-width:641px)
+{
+
+	#myimage
+	{
+		
+	top:10px;
+	left:50px;
+	border-radius: 10px;
+	width:20%;
+	height:auto;
+	}
+
+	#contact
+	{
+		top:150px;
+		left:50px;
+	}
+
+	#contactlist
+	{
+		top:200px;
+		left:5px;
+	}
+
+	#aboutme
+	{
+		font-size:1.25em;
+		top:50px;
+		left:200px;
+		margin-right:5px; 
+	}
+
+	hr
+	{
+		top:255px;
+		width:80%;
+
+	}
+
+	#showcase
+	{
+		border:1px solid white;
+		left:30px;
+		top:280px;
+		margin-right:5px;
+	}
+
+	#showcase ul
+	{
+		left:150px;
+	}
+
+	#tech img
+	{
+		width:50px;
+		height:50px;
+	}
+	#tech li
+	{
+		margin-right:10px;
+	}
+
+	#projects
+	{
+		left:0px;
+	}
+
+}
+
+
+
+
+@media only screen and (max-width:420px)
+{
+
+	#myimage
+	{
+		
+	top:100px;
+	left:120px;
+	border-radius: 10px;
+	width:30%;
+	height:auto;
+	}
+
+	#contact
+	{
+		top:220px;
+		left:110px;
+	}
+
+	#contactlist
+	{
+		top:280px;
+		left:50px;
+	}
+
+	#aboutme
+	{
+		font-size:1em;
+
+		top:350px;
+		left:50px; 
+	}
+
+	hr
+	{
+		top:500px;
+		width:60%;
+
+	}
+
+	#showcase
+	{
+		border:1px solid white;
+		left:5px;
+		top:550px;
+	}
+
+	#showcase ul
+	{
+		left:5px;
+	}
+
+	#tech img
+	{
+		width:50px;
+		height:50px;
+	}
+	#tech li
+	{
+		margin-right:10px;
+	}
+
+	#projects
+	{
+		left:0px;
+	}
+
+}
