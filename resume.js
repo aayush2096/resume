@@ -28,7 +28,7 @@ var Jproj_list=[
 		title:"Syllabus Management System",
 		discription:"A database management system built on java and using RDBMS",
 		tags:"java | database",
-		url:"https://www.github.com.aayush2096/projectmanagement"
+		url:"https://github.com/aayush2096/projectManagement_java"
 		}];
 
 
