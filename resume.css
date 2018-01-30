@@ -155,7 +155,7 @@ top:20px;
 
 	body
 	{
-		background-size:auto;
+		background-size:100% auto;
 	}
 	
 	#myimage
@@ -232,7 +232,7 @@ top:20px;
 {
 	body
 	{
-		background-size:auto;
+		background-size:100% auto;
 	}
 
 	#myimage
