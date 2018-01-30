@@ -153,10 +153,7 @@ top:20px;
 @media only screen and (max-width:641px)
 {
 
-	body
-	{
-		background-size:cover;
-	}
+	
 	
 	#myimage
 	{
@@ -230,10 +227,7 @@ top:20px;
 
 @media only screen and (max-width:420px)
 {
-	body
-	{
-		background-size:cover;
-	}
+	
 
 	#myimage
 	{
