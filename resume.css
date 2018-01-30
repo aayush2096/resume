@@ -3,10 +3,14 @@ body
 {
 	margin:0;
 	padding:0;
+	height:100%;
+	width:100%;
 	background-image:url("./images/sam2.jpeg");
 	background-size:cover;
-	background-attachment:fixed;
 	background-repeat: no-repeat;
+	background-position:center center;
+	background-attachment:fixed;
+	
 }
 #filter
 {
@@ -151,15 +155,6 @@ top:20px;
 
 @media only screen and (max-width:641px)
 {
-		body
-{
-	margin:0;
-	padding:0;
-	background-image:url("./images/sam2.jpeg");
-	background-size:cover;
-	
-	background-repeat: no-repeat;
-}
 
 	
 	#myimage
@@ -235,15 +230,7 @@ top:20px;
 @media only screen and (max-width:420px)
 {
 	
-	body
-{
-	margin:0;
-	padding:0;
-	background-image:url("./images/sam2.jpeg");
-	background-size:cover;
-	
-	background-repeat: no-repeat;
-}
+
 	
 
 	#myimage
