@@ -10,6 +10,11 @@ body
   background-size: cover;
 	background-attachment:fixed;
 }
+html
+{
+	height:100%;
+	background-attachment:fixed;
+}
 
 #filter
 {
