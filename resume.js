@@ -69,6 +69,9 @@ proj.empty();
 
 
 
+document.getElementById("email").addEventListener("click",function(){
+alert("my email id:aayush2096@gmail.com");
+});
 
 
 
