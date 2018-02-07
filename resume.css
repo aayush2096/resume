@@ -3,11 +3,7 @@ body
 {
 	margin:0;
 	padding:0;
-	background-image:url("./images/sam2.jpeg");
-	background-size:cover;
-	background-attachment: fixed;
-	overflow-x: hidden;
-	background-repeat: no-repeat;
+	
 }
 #filter
 {
@@ -19,9 +15,26 @@ body
 	min-width:100%
 	min-height:100%;
 	height:auto;
-	z-index:-1;
+	z-index:1;
 	background-color:black;
 	opacity:0.3; 
+
+}
+#back-img
+{
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	top:0px;
+	right:0px;
+	min-width:100%
+	min-height:100%;
+	height:auto;
+	background-image:url("./images/sam2.jpeg");
+	background-size:cover;
+	background-attachment: fixed;
+	overflow-x: hidden;
+	background-repeat: no-repeat;
 
 }
 
@@ -34,6 +47,7 @@ body
 	right:0px;
 	width:100%;
 	height:auto;
+	z-index: 1;
 }
 
 #myimage
@@ -151,11 +165,10 @@ top:20px;
 @media only screen and (max-width:641px)
 {
 
-	body
+	#back-img
 	{
 		background-size: cover;
 	}
-	
 	
 	#myimage
 	{
@@ -229,12 +242,11 @@ top:20px;
 
 @media only screen and (max-width:420px)
 {
-	
-	html
+	#back-img
 	{
-		height:100%;
+		background-size: cover;
 	}
-	
+
 	#myimage
 	{
 		
