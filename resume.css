@@ -230,7 +230,11 @@ top:20px;
 @media only screen and (max-width:420px)
 {
 	
-
+	html
+	{
+		height:100%;
+	}
+	
 	#myimage
 	{
 		
