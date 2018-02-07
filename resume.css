@@ -3,20 +3,12 @@ body
 {
 	margin:0;
 	padding:0;
-	
-}
-html {
-	width:100%;
-    height:100%;
 	background-image:url("./images/sam2.jpeg");
-	background-repeat:no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-	background-attachment:fixed;
+	background-size:cover;
+	background-attachment: fixed;
+	overflow-x: hidden;
+	background-repeat: no-repeat;
 }
-
 #filter
 {
 	position:fixed;
@@ -24,7 +16,7 @@ html {
 	left:0px;
 	top:0px;
 	right:0px;
-	min-width:100%;
+	min-width:100%
 	min-height:100%;
 	height:auto;
 	z-index:-1;
@@ -138,7 +130,6 @@ top:20px;
 	position: relative;
 	min-width:300px;
 	min-height:100px;
-
 	left:150px;
 	top:50px;
 }
@@ -146,9 +137,8 @@ top:20px;
 .projItem
 {
 	border:1px solid white;
-	padding:5px 5px 5px 5px;
+	padding:5px 5px 0px 5px;
 	border-radius:5px;
-	margin-bottom:10px;
 	color: white;
 }
 
@@ -161,7 +151,10 @@ top:20px;
 @media only screen and (max-width:641px)
 {
 
-	
+	body
+	{
+		background-size: cover;
+	}
 	
 	#myimage
 	{
@@ -235,7 +228,10 @@ top:20px;
 
 @media only screen and (max-width:420px)
 {
-	
+	body
+	{
+		background-size: cover;
+	}
 
 	#myimage
 	{
