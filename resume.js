@@ -20,6 +20,12 @@ var Wproj_list=[
 		discription:"A Temperature converter web app built using HTML,CSS and Javascript as a part of college mini project.",
 		url:"https://aayush2096.github.io/tempConverter/",
 		tags:"html | css | javascript"
+		},
+		{
+		title:"Beat The Bot",
+		discription:"A javascript based game(stone paper scissor) implemented as Progressive Web App(PWA).",
+		url:"https://aayush2096.github.io/BeatTheBot/",
+		tags:"javascript|PWA|html|css"
 		}
 		];
 
